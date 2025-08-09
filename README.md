@@ -26,12 +26,8 @@ We analyzed **Tesla (TSLA)**, **Vanguard Total Bond Market ETF (BND)**, and **S&
 - **Frequency:** Daily
 - **Features:** Open, High, Low, Close, Adj Close, Volume
 
-```python
-import yfinance as yf
-tickers = ['TSLA', 'BND', 'SPY']
-data = yf.download(tickers, start='2015-07-01', end='2025-07-31', group_by='ticker')
-
 ---
+
 ## 🧹 Data Cleaning & Validation
 - **Missing Values:** `0` → no imputation needed  
 - **Data Types:** Correct (`DatetimeIndex`, `float64`, `int64`)  
